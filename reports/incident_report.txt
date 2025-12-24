@@ -1,0 +1,30 @@
+Incident ID: A-1001
+Type: Brute Force
+Severity: HIGH
+Source IP: 45.77.22.11
+Action Taken: BLOCK_IP
+Result: Firewall rule added to block IP 45.77.22.11
+----------------------------------
+Incident ID: A-1002
+Type: Malware Activity
+Severity: CRITICAL
+Source IP: 91.202.44.88
+Action Taken: ISOLATE_HOST
+Result: Host communicating with 91.202.44.88 isolated from network
+----------------------------------
+Incident ID: A-1001
+Type: Brute Force
+Severity: HIGH
+Source IP: 45.77.22.11
+MITRE ATT&CK: T1110 – Brute Force
+Action Taken: BLOCK_IP
+Result: Firewall rule added to block IP 45.77.22.11
+----------------------------------
+Incident ID: A-1002
+Type: Malware Activity
+Severity: CRITICAL
+Source IP: 91.202.44.88
+MITRE ATT&CK: T1059 – Command and Scripting Interpreter
+Action Taken: ISOLATE_HOST
+Result: Host communicating with 91.202.44.88 isolated from network
+----------------------------------
